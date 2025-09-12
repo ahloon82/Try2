@@ -12,28 +12,32 @@ turnOffOnShutdown:readonly
 */
 export function ControllableParameters() {
 	return [
-		{"property":"shutdownColor", "group":"lighting", "label":"关机颜色", description: "This color is applied to the device when the System, or SignalRGB is shutting down", "min":"0", "max":"360", "type":"color", "default":"#009bde"},
-		{"property":"LightingMode", "group":"lighting", "label":"灯光模式", description: "Determines where the device's RGB comes from. Canvas will pull from the active Effect, while Forced will override it to a specific color", "type":"combobox", "values":["Canvas", "Forced"], "default":"Canvas"},
-		{"property":"forcedColor", "group":"lighting", "label":"强制颜色", description: "The color used when 'Forced' Lighting Mode is enabled", "min":"0", "max":"360", "type":"color", "default":"#009bde"},
-		{"property":"MatrixSize", "group":"settings", "label":"屏幕比例", description: "Choose your screen's aspect ratio", "type":"combobox", "values":["4:3 Landscape", "4:3 Portrait", "5:4 Landscape", "5:4 Portrait", "16:9 Landscape", "16:9 Portrait", "16:10 Landscape", "16:10 Portrait", "21:9 Landscape", "21:9 Portrait", "32:9 Landscape", "32:9 Portrait"], "default":"16:9 Landscape"},
-		{"property":"SmoothingMode", "group":"settings", "label":"平滑模式", description: "The smoothing mode specifies whether lines, curves, and the edges of filled areas use smoothing", "type":"combobox", "values":["Default", "High Speed", "High Quality", "None", "Anti Alias"], "default":"Default"},
-		{"property":"CompositingQuality", "group":"settings", "label":"合成质量", description: "The compositing quality determines the rendering quality level of composited images", "type":"combobox", "values":["Default", "High Speed", "High Quality", "Camma Corrected", "Assume Linear"], "default":"Default"},
-		{"property":"InterpolationMode", "group":"settings", "label":"插值模式", description: "The interpolation mode of a Graphics object influences the way GDI+ scales (stretches and shrinks) images", "type":"combobox", "values":["Default", "Low", "High", "Bilinear", "Bicubic", "Nearest Neighbour", "High Quality Bilinear", "High Quality Bicubic"], "default":"Default"},
-		{"property":"PixelOffsetMode", "group":"settings", "label":"像素偏移模式", description: "Specifies that pixels are offset by -.5 units, both horizontally and vertically, for high speed antialiasing", "type":"combobox", "values":["Default", "High Speed", "High Quality", "None", "Half"], "default":"Default"},
-		{"property":"LedShape", "group":"settings", "label":"LED 形状", description: "Choose your preferred LED shape", "type":"combobox", "values":["Rectangle", "Rounded Rectangle", "Sphere"], "default":"Rectangle"},
-		{"property":"RoundedRectangleCornerRadius", description: "Specifies how round you want your LED's corner (Only works when LED Shape is Rounded Rectangle)",  "label":"圆角矩形圆角半径","step":"1", "type":"number","min":"0", "max":"20","default":"2"},
-		{"property":"LedPadding", "label":"LED 间距", description: "Specifies how much space between LEDs", "step":"1", "type":"number","min":"0", "max":"250","default":"0"},
-		{"property":"LedUpdateInterval", "label":"LED 更新间隔", description: "Specifies how many miliseconds should Wallpaper Engine update each frame", "step":"1", "type":"number","min":"1", "max":"200","default":"30"},
-		{"property":"CoverImageSizeMode", "group":"settings", "label":"封面图尺寸模式", description: "Specifies how an image is positioned", "type":"combobox", "values":["Normal", "Stretch Image", "Auto Size", "Center Image", "Zoom"], "default":"Zoom"},
-		{"property":"BackgroundColor", "group":"settings", "label":"背景颜色", description: "This color is applied to the background", "min":"0", "max":"360", "type":"color", "default":"#000000"},
-		{"property":"CpuUsagePauseValue", "label":"CPU 使用率暂停阈值", description: "Temporary Pause Wallpaper effects to reduce CPU usage for potato PC", "step":"1", "type":"number","min":"50", "max":"100","default":"60"},
-		{"property":"CoverImage", "label": "Cover Image", "type": "textfield", description: "A diffuser image to cover the virtual LEDs, supports local and web files (Example: 'C:\\Users\\BARRY\\Pictures\\razer2.png' or 'https://github.com/qiangqiang101/OpenRGB-Wallpaper/raw/master/Wallpaper-Wallpaper/razer5.png?raw=true')", "default": "https://github.com/qiangqiang101/OpenRGB-Wallpaper/raw/master/Wallpaper-Wallpaper/razer5.png?raw=true"},
+		{"property":"shutdownColor", "group":"lighting", "label":"Shutdown Color", description: "This color is applied to the device when the System, or SignalRGB is shutting down", "min":"0", "max":"360", "type":"color", "default":"#009bde"},
+		{"property":"LightingMode", "group":"lighting", "label":"Lighting Mode", description: "Determines where the device's RGB comes from. Canvas will pull from the active Effect, while Forced will override it to a specific color", "type":"combobox", "values":["画布", "强制"], "default":"Canvas"},
+		{"property":"forcedColor", "group":"lighting", "label":"Forced Color", description: "The color used when 'Forced' Lighting Mode is enabled", "min":"0", "max":"360", "type":"color", "default":"#009bde"},
+		{"property":"MatrixSize", "group":"settings", "label":"Aspect Ratio", description: "选择你的屏幕宽高比", "type":"combobox", "values":["4:3 横屏", "4:3 竖屏", "5:4 横屏", "5:4 竖屏", "16:9 横屏", "16:9 竖屏", "16:10 横屏", "16:10 竖屏", "21:9 横屏", "21:9 竖屏", "32:9 横屏", "32:9 竖屏"], "default":"16:9 Landscape"},
+		{"property":"SmoothingMode", "group":"settings", "label":"Smoothing Mode", description: "指定线条、曲线及填充区域边缘是否使用平滑处理", "type":"combobox", "values":["默认", "High Speed", "High Quality", "无", "Anti Alias"], "default":"Default"},
+		{"property":"CompositingQuality", "group":"settings", "label":"Compositing Quality", description: "决定图像合成时的渲染质量", "type":"combobox", "values":["默认", "High Speed", "High Quality", "Camma Corrected", "Assume Linear"], "default":"Default"},
+		{"property":"InterpolationMode", "group":"settings", "label":"Interpolation Mode", description: "影响图像缩放时的处理方式", "type":"combobox", "values":["默认", "低", "高", "双线性", "双三次", "Nearest Neighbour", "High Quality Bilinear", "High Quality Bicubic"], "default":"Default"},
+		{"property":"PixelOffsetMode", "group":"settings", "label":"Pixel Offset Mode", description: "指定像素偏移 -.5 单位以实现高速抗锯齿", "type":"combobox", "values":["默认", "High Speed", "High Quality", "无", "半像素"], "default":"Default"},
+		{"property":"LedShape", "group":"settings", "label":"LED Shape", description: "选择你喜欢的 LED 形状", "type":"combobox", "values":["矩形", "圆角矩形", "球体"], "default":"Rectangle"},
+		{"property":"RoundedRectangleCornerRadius", description: "设置圆角矩形的圆角大小（仅在 LED 形状为圆角矩形时生效）",  "label":"Rounded Rectangle Corner Radius","step":"1", "type":"number","min":"0", "max":"20","default":"2"},
+		{"property":"LedPadding", "label":"LED Padding", description: "设置 LED 之间的间隔", "step":"1", "type":"number","min":"0", "max":"250","default":"0"},
+		{"property":"LedUpdateInterval", "label":"LED Update Interval", description: "Specifies how many miliseconds should Wallpaper Engine update each frame", "step":"1", "type":"number","min":"1", "max":"200","default":"30"},
+		{"property":"CoverImageSizeMode", "group":"settings", "label":"Cover Image Size Mode", description: "Specifies how an image is positioned", "type":"combobox", "values":["正常", "Stretch Image", "Auto Size", "Center Image", "缩放"], "default":"Zoom"},
+		{"property":"BackgroundColor", "group":"settings", "label":"Background Color", description: "This color is applied to the background", "min":"0", "max":"360", "type":"color", "default":"#000000"},
+		{"property":"CpuUsagePauseValue", "label":"CPU Usage Pause Value", description: "Temporary Pause Wallpaper effects to reduce CPU usage for potato PC", "step":"1", "type":"number","min":"50", "max":"100","default":"60"},
+
+		{"property":"PanelPositionX", "label":"Position X", description: "Repositioning Wallpaper left and right", "step":"1", "type":"number","min":"0", "max":"100","default":"50"},
+		{"property":"PanelPositionY", "label":"Position Y", description: "Repositioning Wallpaper up and down", "step":"1", "type":"number","min":"0", "max":"100","default":"50"},
+		{"property":"PanelWidth", "label":"Width", description: "Resizing Wallpaper width", "step":"1", "type":"number","min":"0", "max":"100","default":"100"},
+		{"property":"PanelHeight", "label":"Height", description: "Resizing Wallpaper height", "step":"1", "type":"number","min":"0", "max":"100","default":"100"},
 	];
 }
 
 //Fixed settings
-const MaxLedsInPacket = 480; //483;
-const UdpPort = 8123;
+const MaxLedsInPacket = 480;
+const UdpPort = 8124;
 const ColorPacket = 0x00;
 const SettingPacket = 0x01;
 
@@ -1099,11 +1103,23 @@ export function onCoverImageSizeModeChanged() {
 	updateSettings();
 }
 
-export function onCoverImageChanged() {
+export function onBackgroundColorChanged() {
 	updateSettings();
 }
 
-export function onBackgroundColorChanged() {
+export function onPanelPositionXChanged() {
+	updateSettings();
+}
+
+export function onPanelPositionYChanged() {
+	updateSettings();
+}
+
+export function onPanelWidthChanged() {
+	updateSettings();
+}
+
+export function onPanelHeightChanged() {
 	updateSettings();
 }
 
@@ -1131,15 +1147,16 @@ export function Shutdown(suspend) {
 }
 
 function updateSettings() {
+	const RGBData = [];
+
 	let color = hexToRgb(BackgroundColor);
+	RGBData[12] = color[0];
+	RGBData[13] = color[1];
+	RGBData[14] = color[2];
+
 	let packet = [SettingPacket, vMatrixSize[MatrixSize], vSmoothingMode[SmoothingMode], vCompositingQuality[CompositingQuality], vInterpolationMode[InterpolationMode], vPixelOffsetMode[PixelOffsetMode], 
-	vLedShape[LedShape], RoundedRectangleCornerRadius, LedPadding, LedUpdateInterval, vCoverImageSizeMode[CoverImageSizeMode], CpuUsagePauseValue, color[0], color[1], color[2]]; //0x01 = Send Settings
-
-	// Convert string to bytes and add to packet
-	const coverImageBytes = stringToBytes(CoverImage);
-	packet.push(coverImageBytes.length); // Length prefix
-	packet.push(...coverImageBytes);
-
+	vLedShape[LedShape], RoundedRectangleCornerRadius, LedPadding, LedUpdateInterval, vCoverImageSizeMode[CoverImageSizeMode], CpuUsagePauseValue, PanelPositionX, PanelPositionY, PanelWidth, PanelHeight];
+	packet.push(...RGBData);
 	udp.send(controller.ip, controller.port, packet);
 }
 
@@ -1173,24 +1190,6 @@ function grabColors(shutdown = false) {
 		packet = packet.concat(RGBData.splice(0, MaxLedsInPacket*3));
 		udp.send(controller.ip, controller.port, packet);
 	}
-}
-
-function stringToBytes(str) {
-	const bytes = [];
-	for (let i = 0; i < str.length; i++) {
-		const code = str.charCodeAt(i);
-		if (code < 0x80) {
-			bytes.push(code);
-		} else if (code < 0x800) {
-			bytes.push(0xc0 | (code >> 6));
-			bytes.push(0x80 | (code & 0x3f));
-		} else if (code < 0xd800 || code >= 0xe000) {
-			bytes.push(0xe0 | (code >> 12));
-			bytes.push(0x80 | ((code >> 6) & 0x3f));
-			bytes.push(0x80 | (code & 0x3f));
-		}
-	}
-	return bytes;
 }
 
 function hexToRgb(hex) {
