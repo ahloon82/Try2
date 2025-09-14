@@ -10,7 +10,7 @@
 [![Donate via PayPal](https://img.shields.io/badge/Donate-Paypal-brightgreen)](https://paypal.me/imnotmental)
 [![Follow on Patreon](https://img.shields.io/badge/Donate-Patreon-orange)](https://www.patreon.com/imnotmental)
 
-The first SignalRGB Wallpaper Engine Wallpaper coded with Visual Basic & Javascript.
+第一个使用Visual Basic和Javascript编码的SignalRGB Wallpaper Engine壁纸
 这只是个中文翻译
 ![image](https://github.com/user-attachments/assets/77027bf4-4fda-4d27-86c2-138ebffbe07a)
 
@@ -25,11 +25,11 @@ https://github.com/user-attachments/assets/5fba7161-b260-4840-be5c-b965bf197007
 [![Click here to add this repo to SignalRGB](https://raw.githubusercontent.com/qiangqiang101/SignalRGB-Wallpaper-Engine/refs/heads/main/subsbutton.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=3475033880)
 
 ## 🔧 故障排除
-- [Troubleshooting Wiki](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Troubleshooting)
+- [故障排除 Wiki](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Troubleshooting)
 - [Ask the community](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/tech-support)
 
-## 🖼️ 墙纸
-- [Official Wallpaper Covers](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Wallpapers)
+## 🖼️ 墙纸封面
+- [官方壁纸封面](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Wallpapers)
 - [Community Wallpaper Covers](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/community-wallpapers)
 
 ## 🚧 先决条件
@@ -40,4 +40,5 @@ https://github.com/user-attachments/assets/5fba7161-b260-4840-be5c-b965bf197007
 ## 🚀 有关项目
 - [OpenRGB Wallpaper](https://github.com/qiangqiang101/OpenRGB-Wallpaper)
 - [OpenRGB Wallpaper Engine](https://github.com/qiangqiang101/OpenRGB-Wallpaper-Engine) 
+
 
