@@ -11,7 +11,7 @@
 [![Follow on Patreon](https://img.shields.io/badge/Donate-Patreon-orange)](https://www.patreon.com/imnotmental)
 
 第一个使用Visual Basic和Javascript编码的SignalRGB Wallpaper Engine壁纸
-这只是个中文翻译
+而这只是个中文翻译
 ![image](https://github.com/user-attachments/assets/77027bf4-4fda-4d27-86c2-138ebffbe07a)
 
 https://github.com/user-attachments/assets/5fba7161-b260-4840-be5c-b965bf197007
@@ -26,11 +26,11 @@ https://github.com/user-attachments/assets/5fba7161-b260-4840-be5c-b965bf197007
 
 ## 🔧 故障排除
 - [故障排除 Wiki](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Troubleshooting)
-- [Ask the community](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/tech-support)
+- [询问社区](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/tech-support)
 
 ## 🖼️ 墙纸封面
 - [官方壁纸封面](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Wallpapers)
-- [Community Wallpaper Covers](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/community-wallpapers)
+- [社区壁纸封面](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/community-wallpapers)
 
 ## 🚧 先决条件
 - [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
@@ -40,5 +40,6 @@ https://github.com/user-attachments/assets/5fba7161-b260-4840-be5c-b965bf197007
 ## 🚀 有关项目
 - [OpenRGB Wallpaper](https://github.com/qiangqiang101/OpenRGB-Wallpaper)
 - [OpenRGB Wallpaper Engine](https://github.com/qiangqiang101/OpenRGB-Wallpaper-Engine) 
+
 
 
