@@ -11,31 +11,33 @@
 [![Follow on Patreon](https://img.shields.io/badge/Donate-Patreon-orange)](https://www.patreon.com/imnotmental)
 
 The first SignalRGB Wallpaper Engine Wallpaper coded with Visual Basic & Javascript.
+这只是个中文翻译
 ![image](https://github.com/user-attachments/assets/77027bf4-4fda-4d27-86c2-138ebffbe07a)
 
 https://github.com/user-attachments/assets/5fba7161-b260-4840-be5c-b965bf197007
 
 
 
-## 🛠️ Install
+## 🛠️ 安装
 [![Click here to add this repo to SignalRGB](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/blob/main/addtosrgbgithub.png?raw=true)](https://srgbmods.net/s?p=addon/install?url=https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine)
 [![Click here to add this repo to SignalRGB](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/blob/main/addtosrgbgitlab.png?raw=true)](https://srgbmods.net/s?p=addon/install?url=https://gitlab.com/nollie/SignalRGB-Wallpaper-Engine)
 
 [![Click here to add this repo to SignalRGB](https://raw.githubusercontent.com/qiangqiang101/SignalRGB-Wallpaper-Engine/refs/heads/main/subsbutton.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=3475033880)
 
-## 🔧 Troubleshooting
+## 🔧 故障排除
 - [Troubleshooting Wiki](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Troubleshooting)
 - [Ask the community](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/tech-support)
 
-## 🖼️ Wallpaper Covers
+## 🖼️ 墙纸
 - [Official Wallpaper Covers](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/wiki/Wallpapers)
 - [Community Wallpaper Covers](https://github.com/qiangqiang101/SignalRGB-Wallpaper-Engine/discussions/categories/community-wallpapers)
 
-## 🚧 Prerequisite
+## 🚧 先决条件
 - [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [Wallpaper Engine](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 - [SignalRGB](https://signalrgb.com/)
 
-## 🚀 Similar Projects
+## 🚀 有关项目
 - [OpenRGB Wallpaper](https://github.com/qiangqiang101/OpenRGB-Wallpaper)
 - [OpenRGB Wallpaper Engine](https://github.com/qiangqiang101/OpenRGB-Wallpaper-Engine) 
+
